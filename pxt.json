@@ -1,0 +1,25 @@
+{
+    "name": "Conways Game of Life Calliope",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "matrix": "github:calliope-net/matrix#v0.4.5"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.3",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
